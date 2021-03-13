@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>
+            THE FAMILY BOOK
+        </title>
+    </head>
+    <body>
+        <h1 id="name">THE FAMILY BOOK</h1>
+        <img id="image"src="https://th.bing.com/th/id/Rf8bbd0a5b3d1772e6122d65831280252?rik=9QD5Pvw3JlUYdw&riu=http%3a%2f%2fprodimage.images-bn.com%2fpimages%2f9780316070409_p0_v1_s1200x630.jpg&ehk=Lvcf6wbW1ArkjcUq62q1v8RajC1qlsQdgVOhp0i4DCc%3d&risl=&pid=ImgRaw&adlt=strict">
+        <br>
+        <button id="button" onclick="nextslide()">NEXT PAGE</button>
+        <script>
+            var next = 1
+            function nextslide() {
+                if (next = 1) {
+                    document.getElementById("image").innerHTML = src="https://www.jamiesale-cartoonist.com/wp-content/uploads/cartoon-business-man-free.png";
+                    document.getElementById("name").innerHTML = "Jack Brown";
+                    next = 2;
+                }
+
+                if (next = 2) {
+                    document.getElementById("image").innerHTML = src="https://banner2.kisspng.com/20180409/taw/kisspng-cartoon-animation-female-character-business-woman-5acb0abb0363c2.4327480715232559950139.jpg";
+                    document.getElementById("name").innerHTML = "Jill Smith ";
+                    next = 3;
+                }
+
+                if (next = 3) {
+                    document.getElementById("image").innerHTML = src="https://static.vecteezy.com/system/resources/previews/000/601/007/original/vector-cute-cartoon-baby.jpg";
+                    document.getElementById("name").innerHTML = "Baby Olivier";
+                    next = 4;
+                }
+
+                if (next = 4) {
+                    document.getElementById("image").innerHTML = src="https://th.bing.com/th/id/Rf8bbd0a5b3d1772e6122d65831280252?rik=9QD5Pvw3JlUYdw&riu=http%3a%2f%2fprodimage.images-bn.com%2fpimages%2f9780316070409_p0_v1_s1200x630.jpg&ehk=Lvcf6wbW1ArkjcUq62q1v8RajC1qlsQdgVOhp0i4DCc%3d&risl=&pid=ImgRaw&adlt=strict";
+                    document.getElementById("name").innerHTML = "THE FAMILY BOOK";
+                    next = 1;
+                }
+            }
+        </script>
+    </body>
+</html>
